@@ -1,0 +1,60 @@
+.main_container{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.habit_left {
+    margin-left: 5%;
+    height: 80px;
+    font-size: 45px;
+    width: 45%;
+    display:inline-block;
+}
+
+.habit_right {
+    margin-right: 5%;
+    height: 80px;
+    font-size: 40px;
+    width: 45%;
+    display:inline-block;
+    text-align:right;
+    color: #81BEF7; // 颜色需要比下面那个深一些
+}
+
+.task_left {
+    margin-left: 5%;
+    margin-top: 20px;
+    height: 80px;
+    font-size: 45px;
+    width: 45%;
+    display:inline-block;
+}
+
+.task_right {
+    margin-top: 20px;
+    margin-right: 5%;
+    height: 80px;
+    font-size: 40px;
+    width: 45%;
+    display:inline-block;
+    text-align:right;
+    color: #81BEF7;
+}
+
+.create_new_habit {
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    border:2px solid;
+    border-radius:10px;
+    background-color: rgb(253, 255, 255);
+    height: 200px;
+    font-size: 30px;
+    text-align:right;
+    color: #81BEF7;
+    padding-right: 10px; 
+    border-color:rgb(253, 255, 255);
+}
+
